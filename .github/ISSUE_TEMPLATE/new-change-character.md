@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-##Describe who this character is and his personality
+## Describe who this character is and his personality
 
 ## Body Assert
 
