@@ -4,12 +4,12 @@
 		"id" : "/Environment/Main%20house/Bedroom%20Victoria/Lights%20Night.duf",
 		"type" : "scene_subset",
 		"contributor" : {
-			"author" : "DRincs",
+			"author" : "",
 			"email" : "",
-			"website" : "https://drincs-website.web.app/"
+			"website" : ""
 		},
 		"revision" : "1.0",
-		"modified" : "2023-07-18T16:32:57Z"
+		"modified" : "2023-07-23T14:49:36Z"
 	},
 	"node_library" : [
 		{
@@ -108902,7 +108902,7 @@
 						"id" : "y",
 						"type" : "float",
 						"name" : "YTranslate",
-						"current_value" : 7.318818
+						"current_value" : 23.17536
 					},
 					{
 						"id" : "z",
