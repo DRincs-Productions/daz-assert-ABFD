@@ -1,17 +1,380 @@
 {
 	"file_version" : "0.6.1.0",
 	"asset_info" : {
-		"id" : "/Environment/Hospital/Hospital%20Room/Lights.duf",
+		"id" : "/Environment/Hospital/Hospital%20Room/Lights%20Day.duf",
 		"type" : "scene_subset",
 		"contributor" : {
-			"author" : "DRincs",
+			"author" : "drincs.contact",
 			"email" : "",
-			"website" : "https://drincs-website.web.app/"
+			"website" : ""
 		},
 		"revision" : "1.0",
-		"modified" : "2023-06-21T19:15:57Z"
+		"modified" : "2023-08-20T09:33:53Z"
 	},
 	"node_library" : [
+		{
+			"id" : "Group 4",
+			"name" : "Group 4",
+			"type" : "node",
+			"label" : "Lights Day",
+			"rotation_order" : "XYZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 20,
+					"current_value" : 20,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"current_value" : -227.4509,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"current_value" : -10,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"current_value" : 742.246,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 1,
+				"current_value" : 1,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"extra" : [
+				{
+					"type" : "studio/node/group_node"
+				},
+				{
+					"type" : "studio_node_channels",
+					"version" : 4,
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Disable Transform",
+								"type" : "bool",
+								"label" : "Disable Local Transform",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Ignore Local Transform",
+								"type" : "bool",
+								"label" : "Ignore Local Transform",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"label" : "Point At",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Constraints"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"label" : "Visible",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Viewport",
+								"type" : "bool",
+								"label" : "Visible in Viewport",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"label" : "Selectable (in Viewport)",
+								"value" : true,
+								"current_value" : false
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"label" : "Visible in Render",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"label" : "Cast Shadows",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"current_value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Display/Simulation"
+						}
+					]
+				}
+			]
+		},
 		{
 			"id" : "SpotLight",
 			"name" : "SpotLight",
@@ -172,7 +535,7 @@
 					"name" : "ZRotate",
 					"label" : "Z Rotate",
 					"value" : 0,
-					"current_value" : -0.000534535,
+					"current_value" : -0.0005343714,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 0.5
@@ -185,7 +548,7 @@
 					"name" : "XTranslate",
 					"label" : "X Translate",
 					"value" : 0,
-					"current_value" : -445.715,
+					"current_value" : -218.2641,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -196,7 +559,7 @@
 					"name" : "YTranslate",
 					"label" : "Y Translate",
 					"value" : 0,
-					"current_value" : 454.3324,
+					"current_value" : 464.3324,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -207,7 +570,7 @@
 					"name" : "ZTranslate",
 					"label" : "Z Translate",
 					"value" : 0,
-					"current_value" : 1472.55,
+					"current_value" : 730.3041,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -945,7 +1308,7 @@
 					"name" : "XTranslate",
 					"label" : "X Translate",
 					"value" : 0,
-					"current_value" : 0,
+					"current_value" : 227.4509,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -956,7 +1319,7 @@
 					"name" : "YTranslate",
 					"label" : "Y Translate",
 					"value" : 0,
-					"current_value" : 0,
+					"current_value" : 10,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -967,7 +1330,7 @@
 					"name" : "ZTranslate",
 					"label" : "Z Translate",
 					"value" : 0,
-					"current_value" : 0,
+					"current_value" : -742.246,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -1586,7 +1949,7 @@
 					"name" : "XTranslate",
 					"label" : "X Translate",
 					"value" : 0,
-					"current_value" : 0,
+					"current_value" : 227.4509,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -1597,7 +1960,7 @@
 					"name" : "YTranslate",
 					"label" : "Y Translate",
 					"value" : 0,
-					"current_value" : 0,
+					"current_value" : 10,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -1608,7 +1971,7 @@
 					"name" : "ZTranslate",
 					"label" : "Z Translate",
 					"value" : 0,
-					"current_value" : 0,
+					"current_value" : -742.246,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -3136,10 +3499,26 @@
 	"scene" : {
 		"nodes" : [
 			{
+				"id" : "Group 4-1",
+				"url" : "#Group%204",
+				"name" : "Group 4",
+				"label" : "Lights Day",
+				"extra" : [
+					{
+						"type" : "studio/node/group_node"
+					},
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
 				"id" : "SpotLight-1",
 				"url" : "#SpotLight",
 				"name" : "SpotLight",
 				"label" : "Sole",
+				"parent" : "#Group%204-1",
 				"extra" : [
 					{
 						"type" : "studio_node_channels",
@@ -3152,6 +3531,7 @@
 				"url" : "#Tonemapper%20Options",
 				"name" : "Tonemapper Options",
 				"label" : "Tonemapper Options",
+				"parent" : "#Group%204-1",
 				"extra" : [
 					{
 						"type" : "studio/node/tone_mapper"
@@ -3167,6 +3547,7 @@
 				"url" : "#Environment%20Options",
 				"name" : "Environment Options",
 				"label" : "Environment Options",
+				"parent" : "#Group%204-1",
 				"extra" : [
 					{
 						"type" : "studio/node/environment"

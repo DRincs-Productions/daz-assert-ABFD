@@ -4,12 +4,12 @@
 		"id" : "/Environment/Main%20house/Bedroom%20MC/Cameras.duf",
 		"type" : "scene_subset",
 		"contributor" : {
-			"author" : "",
+			"author" : "drincs.contact",
 			"email" : "",
 			"website" : ""
 		},
 		"revision" : "1.0",
-		"modified" : "2023-08-12T12:01:44Z"
+		"modified" : "2023-08-22T18:25:07Z"
 	},
 	"geometry_library" : [
 		{
@@ -349,8 +349,8 @@
 				"yfov" : 0.5403064,
 				"focal_length" : 65,
 				"depth_of_field" : true,
-				"focal_distance" : 633.3103,
-				"fstop" : 46.33305
+				"focal_distance" : 513.6247,
+				"fstop" : 52.97952
 			},
 			"center_point" : [
 				{
@@ -495,7 +495,7 @@
 					"name" : "ZRotate",
 					"label" : "Z Rotate",
 					"value" : 0,
-					"current_value" : -3.608319e-05,
+					"current_value" : -3.605743e-05,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 0.5
@@ -508,7 +508,7 @@
 					"name" : "XTranslate",
 					"label" : "X Translate",
 					"value" : 0,
-					"current_value" : 129.8628,
+					"current_value" : 130.1192,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -519,7 +519,7 @@
 					"name" : "YTranslate",
 					"label" : "Y Translate",
 					"value" : 0,
-					"current_value" : 148.8199,
+					"current_value" : 148.9208,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -530,7 +530,7 @@
 					"name" : "ZTranslate",
 					"label" : "Z Translate",
 					"value" : 0,
-					"current_value" : 420.7187,
+					"current_value" : 421.5755,
 					"min" : -10000,
 					"max" : 10000,
 					"step_size" : 1
@@ -761,7 +761,7 @@
 								"type" : "float",
 								"label" : "Focal Distance",
 								"value" : 450,
-								"current_value" : 633.3103,
+								"current_value" : 513.6247,
 								"min" : -10000,
 								"max" : 10000,
 								"step_size" : 1
@@ -774,7 +774,7 @@
 								"type" : "float",
 								"label" : "F/Stop",
 								"value" : 22,
-								"current_value" : 46.33305,
+								"current_value" : 52.97952,
 								"min" : -10000,
 								"max" : 10000,
 								"step_size" : 1
@@ -1264,7 +1264,7 @@
 			"id" : "pPlane(127k000)10",
 			"name" : "pPlane(127k000)10",
 			"type" : "node",
-			"label" : "Muro A (2)",
+			"label" : "Muro A",
 			"rotation_order" : "YXZ",
 			"inherits_scale" : true,
 			"center_point" : [
@@ -4385,7 +4385,7 @@
 				"id" : "pPlane(127k000)10-1",
 				"url" : "#pPlane%28127k000%2910",
 				"name" : "pPlane(127k000)10",
-				"label" : "Muro A (2)",
+				"label" : "Muro A",
 				"parent" : "#Camera%201-1",
 				"geometries" : [
 					{
@@ -4449,6 +4449,7 @@
 					}
 				]
 			}
-		]
+		],
+		"current_camera" : "#Camera%201-1"
 	}
 }
