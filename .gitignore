@@ -3,3 +3,5 @@ desktop.ini
 data/auto_adapted
 Rubbish
 Wiki
+.megaignore
+*.tip.png
